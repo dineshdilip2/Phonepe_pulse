@@ -28,6 +28,11 @@ PhonePe Pulse is your window to the world of how India transacts with interestin
 
 ## Details about library's and modules used in this project:
 ### OS Module:
+After importing the os module, you can use its functions and attributes by prefixing them with os.. 
+
+### Json Module:
+JavaScript Object Notation (JSON) is a standardized format commonly used to transfer data as text that can be sent over a network. It's used by lots of APIs and Databases, and it's easy for both humans and machines to read. JSON represents objects as name/value pairs, just like a Python dictionary. 
+
 
 
 
