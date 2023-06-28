@@ -44,6 +44,38 @@ Streamlit is a free and open-source framework to rapidly build and share beautif
 ### Plotly:
 Plotly provides online graphing, analytics, and statistics tools for individuals and collaboration, as well as scientific graphing libraries for Python, R, MATLAB, Perl, Julia, Arduino, JavaScript and REST.
 
+## Explanation about Phonepe_pulse API:
+### Import necessary libraries and modules:
+~~~ python
+import os
+import json
+import pandas as pd
+import streamlit as st
+import pandas as pd
+import json
+import mysql.connector as con
+import plotly.express as px
+~~~
+
+### 1.Data Extraction:
+Clone the phonepe pulse github repository and extract the all needed data from the repository.Transform the data into necessary format using data cleaning and preprocessing methods.
+Create the dataframe and convert the data into csv format.Store the data in MYSQL server for better access and usage of dataframe.
+
+~~~python
+import mysql.connector as con
+mydb = con.connect(
+    host="localhost",
+    port="3306",
+    user="root",
+    password="Sep@2809"
+    )
+
+mycursor = mydb.cursor(buffered=True)
+
+mycursor.execute("CREATE DATABASE IF NOT EXISTS Phonepe")
+mycursor.execute("USE Phonepe")
+~~~
+
 
 
 
