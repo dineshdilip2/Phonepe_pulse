@@ -26,5 +26,8 @@ When PhonePe started 5 years back, we were constantly looking for definitive dat
 This year as we became India's largest digital payments platform with 46% UPI market share, we decided to demystify the what, why and how of digital payments in India.
 PhonePe Pulse is your window to the world of how India transacts with interesting trends, deep insights and in-depth analysis based on our data put together by the PhonePe team.
 
+## Details about library's and modules used in this project:
+### OS Module:
+
 
 
