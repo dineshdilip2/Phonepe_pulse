@@ -27,11 +27,23 @@ This year as we became India's largest digital payments platform with 46% UPI ma
 PhonePe Pulse is your window to the world of how India transacts with interesting trends, deep insights and in-depth analysis based on our data put together by the PhonePe team.
 
 ## Details about library's and modules used in this project:
-### OS Module:
+### OS :
 After importing the os module, you can use its functions and attributes by prefixing them with os.. 
 
-### Json Module:
-JavaScript Object Notation (JSON) is a standardized format commonly used to transfer data as text that can be sent over a network. It's used by lots of APIs and Databases, and it's easy for both humans and machines to read. JSON represents objects as name/value pairs, just like a Python dictionary. 
+### Json :
+JavaScript Object Notation (JSON) is a standardized format commonly used to transfer data as text that can be sent over a network. It's used by lots of APIs and Databases, and it's easy for both humans and machines to read. JSON represents objects as name/value pairs, just like a Python dictionary.
+
+### pandas:
+Pandas is an open-source library that is made mainly for working with relational or labeled data both easily and intuitively. It provides various data structures and operations for manipulating numerical data and time series. This library is built on top of the NumPy library. Pandas is fast and it has high performance & productivity for users.
+### MYSQL:
+MySQL is a widely used relational database management system (RDBMS).MySQL is free and open-source.
+MySQL is ideal for both small and large applications.
+### Streamlit:
+Streamlit is a free and open-source framework to rapidly build and share beautiful machine learning and data science web apps. It is a Python-based library specifically designed for machine learning engineers.
+
+### Plotly:
+Plotly provides online graphing, analytics, and statistics tools for individuals and collaboration, as well as scientific graphing libraries for Python, R, MATLAB, Perl, Julia, Arduino, JavaScript and REST.
+
 
 
 
