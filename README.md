@@ -83,11 +83,11 @@ Using Streamlit and Plotly libraries in python to create the Phonepe_Pulse dashb
 Using of MYSQL database will be easily accessible for data's.
 
 Some examples of data visualizasion using Phonepe_pulse dashboard:
-
+1)This image shows the transaction count according to the district:
 ![Bar chart 2](https://github.com/dineshdilip2/Phonepe_pulse/assets/119442550/6b4aa49b-47fe-4a7a-8c86-76aac1e5411a)
-
+2)This image shows the Top 10 phonepe transactions according to state:
 ![Pie Chart](https://github.com/dineshdilip2/Phonepe_pulse/assets/119442550/6ef8b83c-134e-4337-8d11-8f7166832ee6)
-
+3)This image shows the top 10 Phonepe users according to brands:
 ![Pie chart 2](https://github.com/dineshdilip2/Phonepe_pulse/assets/119442550/211832c0-b1fc-4161-983c-93e1171f2d6d)
 
 
