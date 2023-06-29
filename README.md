@@ -59,8 +59,10 @@ import plotly.express as px
 
 ### 1.Data Extraction:
 Clone the phonepe pulse github repository and extract the all needed data from the repository.Transform the data into necessary format using data cleaning and preprocessing methods.
-Create the dataframe and convert the data into csv format.Store the data in MYSQL server for better access and usage of dataframe.
+Create the dataframe and convert the data into csv format.
 
+### 2.MYSQL data conversion:
+Store the data in MYSQL server for better access and usage of dataframe.Following code will be helps to create the MYSQL data base.
 ~~~python
 import mysql.connector as con
 mydb = con.connect(
@@ -76,7 +78,16 @@ mycursor.execute("CREATE DATABASE IF NOT EXISTS Phonepe")
 mycursor.execute("USE Phonepe")
 ~~~
 
+### 3.Dashboard creation:
+Using Streamlit and Plotly libraries in python to create the Phonepe_Pulse dashboard from extracted data of MYSQL database.
+Using of MYSQL database will be easily accessible for data's.
 
+Some examples of data visualizasion using Phonepe_pulse dashboard:
 
+![Bar chart 2](https://github.com/dineshdilip2/Phonepe_pulse/assets/119442550/6b4aa49b-47fe-4a7a-8c86-76aac1e5411a)
+
+![Pie Chart](https://github.com/dineshdilip2/Phonepe_pulse/assets/119442550/6ef8b83c-134e-4337-8d11-8f7166832ee6)
+
+![Pie chart 2](https://github.com/dineshdilip2/Phonepe_pulse/assets/119442550/211832c0-b1fc-4161-983c-93e1171f2d6d)
 
 
